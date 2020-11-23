@@ -484,7 +484,7 @@ middleware 2:
   - downstreamGroups: ['cors']
 ```
 
-2. a middleware chain with the execution order of
+2. Form a middleware chain with the execution order of
    `sendResponse => group2 => cors => group1`:
 
 ```
@@ -498,7 +498,7 @@ middleware 2:
   - downstreamGroups: ['cors']
 ```
 
-2. a middleware chain with an invalid order as `group1` and `group2` creates a
+3. Form a middleware chain with an invalid order as `group1` and `group2` creates a
    circular dependency:
 
 ```
