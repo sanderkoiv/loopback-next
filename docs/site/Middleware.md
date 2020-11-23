@@ -68,7 +68,7 @@ Injection, as well as Extension Point and Extensions.
 
 Built on top of idea of interceptors, middleware is specialized functions that
 work with the `MiddlewareContext` - a wrapper object for `request` and
-`response`. The signature is of `Middleware` is:
+`response`. The signature of `Middleware` is:
 
 ```ts
 import {MiddlewareContext} from '@loopback/rest';
